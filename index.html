@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>POKEDEX</h1>
+    <input id="pokeName" type="text" placeholder="Buscar pokemon">
+    <button id="btn" onclick="fetchPokemon()">Buscar</button>
+    <div class="cards">
+        <div class="card" id="pokeCard">
+            <h2 id="pokeTitle"></h2>
+            <img id="pokeIMG" src="" alt="">
+        </div>
+    </div>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span id="cerrar" class="ebcf_close">&times;</span>
+            <h2 id="pokeTitle2"></h2>
+            <img id="pokeIMG2" src="" alt="">
+            <span class="type">Tipo de pokemón: </span>
+            <span id="type"></span>
+            
+        </div>
+      
+    </div>
+
+</body>
+
+<script src="./JS/javacript.js"></script>
+</html>
